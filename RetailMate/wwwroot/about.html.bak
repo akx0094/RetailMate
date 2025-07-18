@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Bharrat's Touuch Tabla Studio</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header section starts -->
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="home.html" class="logo">Bharrat's Touuch Tabla Studio<span style="color:var(--color-red);">.</span></a>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#products">Products</a>
+        <a href="review.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+        <!-- Placeholder for ASP.NET Core Login Integration -->
+        <a href="/Account/Login" class="btn">Login</a>
+    </nav>
+</header>
+<!-- Header section ends -->
+
+<br><br><br> <!-- Spacing for fixed header -->
+
+<!-- About section (Bharat S Kakade) starts -->
+<section class="about" id="about-bharat">
+    <h1 class="section-heading"> <span> About </span> Bharat S Kakade </h1>
+    <div class="row">
+        <div class="image-container">
+            <a href="https://en-gb.facebook.com/people/Bharat-S-Kakade/pfbid02BLtudnUzxEGCZc46YxXMhY483acvT6CQ7hKWUKRLbmJLKqvTymUmJiqqv4XariLYl/" target="_blank">
+                <img src="images/img/bharat.jpg" alt="Bharat S Kakade - Tabla Maker">
+            </a>
+        </div>
+        <div class="content">
+            <h3>A Legacy of Craftsmanship</h3>
+            <p>
+            Bharat S Kakade is a distinguished name in the realm of tabla craftsmanship, renowned for his unwavering passion for preserving and innovating upon centuries-old traditions. As a beacon of excellence in the art of tabla making, he stands out among the well-known tabla makers in Pune, especially recognized for his export-quality tablas.
+            </p>
+            <p>
+            His work is highly appreciated by musicians and enthusiasts around the globe, a testament to his dedication to quality and precision. Every instrument crafted by Bharat Kakade bears the hallmark of mastery, resonating with the rich heritage of Indian classical music. Through his expertise and profound commitment, he continues to elevate the art of tabla making, captivating performers and audiences alike with instruments that embody the true essence of musical brilliance.
+            </p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </div>
+</section>
+<!-- About section (Bharat S Kakade) ends -->
+
+<!-- About section (Why to Choose us) starts - Detailed on this page -->
+<section class="about" id="why-choose-us-detailed">
+    <h1 class="section-heading"> <span> Our Commitment </span></h1>
+    <div class="row">
+        <div class="content">
+            <h3>Experience & Expertise</h3>
+            <p>
+            With decades of experience in the business, we possess unparalleled knowledge in tabla making. Our professionals are experts in crafting and tuning tablas to perfection, ensuring each instrument meets the highest standards of quality and sound.
+            </p>
+            <h3>Unmatched Quality</h3>
+            <p>
+            We are committed to providing only the best quality tablas. Our instruments are not just products; they are works of art, meticulously handcrafted to deliver superior sound quality and reliability. This commitment has earned us a stellar reputation in the industry.
+            </p>
+            <h3>Global Accessibility</h3>
+            <p>
+            Our reach extends globally, with reliable shipment services available all over India and around the world. No matter where you are, you can experience the excellence of Bharrat's Touuch Tabla Studio.
+            </p>
+            <h3>Exceptional Customer Service</h3>
+            <p>
+            We believe in fostering strong relationships with our customers. From inquiry to delivery and beyond, expect exceptional customer service every step of the way. We are dedicated to making your experience seamless and satisfying, making us the ideal choice for discerning musicians.
+            </p>
+        </div>
+        <div class="video-container">
+            <a href="https://youtu.be/vmxz11wY57Y?si=eBzp6ZSBYonh3Z23" target="_blank">
+                <video src="images/shop.mp4" loop autoplay muted controls></video>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- About section (Why to Choose us) ends -->
+
+<!-- Footer section starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#products">Products</a>
+            <a href="review.html">Reviews</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="https://www.google.com/maps/place/Bharrat's+Touuch+Tabla+Studio/@18.4941551,73.8325798,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf4172c2e149:0x3bb0302905864f63!8m2!3d18.4941551!4d73.8351547!16s%2Fg%2F11sx4jhpnn?entry=ttu" target="_blank">PUNE, India</a>
+            <a href="#" target="_blank">USA (Coming Soon)</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+91 7030710006</a>
+            <a href="mailto:bharatkakade0060@gmail.com?subject=Inquiry%20from%20Website">bharatkakade0060@gmail.com</a>
+            <a href="https://www.google.com/maps/place/Bharrat's+Touuch+Tabla+Studio/@18.4941551,73.8325798,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf4172c2e149:0x3bb0302905864f63!8m2!3d18.4941551!4d73.8351547!16s%2Fg%2F11sx4jhpnn?entry=ttu" target="_blank">
+                Bharrat's Touuch Tabla Studio <br>Laxmi Narayan Angan, Sinhgad Rd, behind Navshya Maruti Temple, opp. P.L.Deshpande Garden, Sarita Vihar, Dattawadi, Pune, Maharashtra 411051
+            </a>
+        </div>
+    </div>
+    <div class="credit">
+        Designed by <span style="color:var(--color-accent-yellow);">ANSHUMAN KALBHOR | MADE WITH LOVE &#128151; IN INDIA</span>
+    </div>
+</section>
+<!-- Footer section ends -->
+
+</body>
+</html>

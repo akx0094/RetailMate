@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | Bharrat's Touuch Tabla Studio</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0V4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header section starts -->
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="home.html" class="logo">Bharrat's Touuch Tabla Studio<span style="color:var(--color-red);">.</span></a>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#products">Products</a>
+        <a href="review.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+        <!-- Placeholder for ASP.NET Core Login Integration -->
+        <a href="/Account/Login" class="btn">Login</a>
+    </nav>
+</header>
+<!-- Header section ends -->
+
+<br><br><br> <!-- Spacing for fixed header -->
+
+<!-- Review section starts -->
+<section class="review" id="review">
+    <h1 class="section-heading"> Customer's <span>Reviews</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>The tablas from Bharrat's Touuch Tabla Studio are simply exceptional! The craftsmanship is superb, and the sound quality is incredibly rich and resonant. Truly a joy to play.</p>
+            <div class="user">
+                <img src="images/img/prof.jpg" alt="Customer Profile Picture">
+                <div class="user-info">
+                    <h3>Ravi Sharma</h3>
+                    <span>Professional Musician</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>I ordered a custom tabla set, and I'm amazed by the attention to detail. The tuning is perfect, and the delivery was prompt. Highly recommend for serious tabla players.</p>
+            <div class="user">
+                <img src="images/img/prof.jpg" alt="Customer Profile Picture">
+                <div class="user-info">
+                    <h3>Priya Singh</h3>
+                    <span>Happy Customer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>The quality of the tabla bag and hammer I purchased is excellent. Durable and well-made, they perfectly complement my instruments. Great products and service!</p>
+            <div class="user">
+                <img src="images/img/prof.jpg" alt="Customer Profile Picture">
+                <div class="user-info">
+                    <h3>Amit Patel</h3>
+                    <span>Music Enthusiast</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>As an international customer, I was impressed by the smooth shipping process and the secure packaging. The tablas arrived in perfect condition and sound beautiful.</p>
+            <div class="user">
+               <img src="images/img/prof.jpg" alt="Customer Profile Picture">
+                <div class="user-info">
+                    <h3>David Lee</h3>
+                    <span>International Buyer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>The team at Bharrat's Touuch Tabla Studio is incredibly knowledgeable and helpful. They guided me through the selection process and ensured I got the perfect instrument.</p>
+            <div class="user">
+               <img src="images/img/prof.jpg" alt="Customer Profile Picture">
+                <div class="user-info">
+                    <h3>Sneha Rao</h3>
+                    <span>Beginner Tabla Player</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>I've been playing tabla for years, and the instruments from this studio are truly top-notch. The resonance and tone are exactly what a professional looks for. Highly recommended.</p>
+            <div class="user">
+                <img src="images/img/prof.jpg" alt="Customer Profile Picture">
+                <div class="user-info">
+                    <h3>Vijay Kumar</h3>
+                    <span>Tabla Maestro</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+    </div>
+</section>
+<!-- Review section ends -->
+
+<!-- Footer section starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#products">Products</a>
+            <a href="review.html">Reviews</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="https://www.google.com/maps/place/Bharrat's+Touuch+Tabla+Studio/@18.4941551,73.8325798,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf4172c2e149:0x3bb0302905864f63!8m2!3d18.4941551!4d73.8351547!16s%2Fg%2F11sx4jhpnn?entry=ttu" target="_blank">PUNE, India</a>
+            <a href="#" target="_blank">USA (Coming Soon)</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+91 7030710006</a>
+            <a href="mailto:bharatkakade0060@gmail.com?subject=Inquiry%20from%20Website">bharatkakade0060@gmail.com</a>
+            <a href="https://www.google.com/maps/place/Bharrat's+Touuch+Tabla+Studio/@18.4941551,73.8325798,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf4172c2e149:0x3bb0302905864f63!8m2!3d18.4941551!4d73.8351547!16s%2Fg%2F11sx4jhpnn?entry=ttu" target="_blank">
+                Bharrat's Touuch Tabla Studio <br>Laxmi Narayan Angan, Sinhgad Rd, behind Navshya Maruti Temple, opp. P.L.Deshpande Garden, Sarita Vihar, Dattawadi, Pune, Maharashtra 411051
+            </a>
+        </div>
+    </div>
+    <div class="credit">
+        Designed by <span style="color:var(--color-accent-yellow);">ANSHUMAN KALBHOR | MADE WITH LOVE &#128151; IN INDIA</span>
+    </div>
+</section>
+<!-- Footer section ends -->
+
+</body>
+</html>

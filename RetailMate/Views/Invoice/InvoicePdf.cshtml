@@ -1,0 +1,181 @@
+﻿@model RetailMate.Models.Invoice
+
+@{
+    Layout = null;
+    var total = Model.Items?.Sum(i => i.Subtotal) ?? 0;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Invoice PDF</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            padding: 40px;
+            color: #000;
+        }
+
+        .header, .footer {
+            text-align: center;
+        }
+
+            .header img {
+                width: 100px;
+                margin-bottom: 10px;
+            }
+
+            .header h1 {
+                margin-bottom: 4px;
+            }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+            .invoice-table th {
+                background-color: #92B4F4;
+                color: white;
+                padding: 10px;
+            }
+
+            .invoice-table td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: right;
+            }
+
+                .invoice-table td:first-child,
+                .invoice-table td:nth-child(2) {
+                    text-align: left;
+                }
+
+        .grand-total-row td {
+            background-color: #92B4F4;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .signature {
+            margin-top: 60px;
+            text-align: right;
+        }
+
+            .signature img {
+                width: 120px;
+                margin-bottom: -10px;
+            }
+
+        .bank-info {
+            margin-top: 50px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        @@media print {
+            body
+
+        {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        .invoice-table th,
+        .grand-total-row td {
+            background-color: #92B4F4 !important;
+            color: white !important;
+        }
+
+        button {
+            display: none !important;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>@Model.ShopName</h1>
+        <p>Tabla dagga & harmonium, sales and repair</p>
+        <hr />
+    </div>
+
+
+    <div class="info">
+        <div>
+     
+            <strong>Date Issued:</strong> @Model.Date.ToString("dd/MM/yyyy")
+        </div>
+        <div>
+            <strong>Invoice No:</strong> @Model.BillNumber
+        </div>
+
+        <div>
+            <strong>Billed To:</strong><br />
+            @Model.CustomerName<br />
+            @Model.BillingAddress
+        </div>
+    </div>
+
+    <table class="invoice-table">
+        <thead>
+            <tr>
+                <th>NO</th>
+                <th>DESCRIPTION</th>
+                <th>QTY</th>
+                <th>PRICE</th>
+                <th>SUBTOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Items.Count; i++)
+            {
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@Model.Items[i].ItemName</td>
+                    <td>@Model.Items[i].Quantity</td>
+                    <td>₹@Model.Items[i].Price</td>
+                    <td>₹@Model.Items[i].Subtotal</td>
+                </tr>
+            }
+            <tr class="grand-total-row">
+                <td colspan="4">GRAND TOTAL</td>
+                <td>₹@total</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="bank-info">
+        <strong>Payment Information</strong><br />
+        Bank Name: HDFC BANK<br />
+        ACC NAME : Bharrats Touch Tabla Studio<br />
+        Branch Name : Tilak Road<br />
+        Account No: 50200011410639<br />
+        IFSC : HDFC0003649
+    </div>
+
+    <div class="signature">
+        <img src="~/images/sign.jpg" alt="Signature" />
+        <p>Finance Manager</p>
+    </div>
+
+    <div class="text-center">
+        <button onclick="window.print()">Print to PDF</button>
+    </div>
+</body>
+</html>

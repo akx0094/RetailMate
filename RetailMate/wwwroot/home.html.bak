@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharrat's Touuch Tabla Studio - Home</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header section starts -->
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="home.html" class="logo">Bharrat's Touuch Tabla Studio<span style="color:var(--color-red);">.</span></a>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#products">Products</a>
+        <a href="review.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+        <!-- Placeholder for ASP.NET Core Login Integration -->
+        <a href="/Account/Login" class="btn">Login</a>
+    </nav>
+</header>
+<!-- Header section ends -->
+
+<!-- Home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Bharrat's Touuch Tabla Studio</h3>
+        <span>"Each instrument has a spirit that can guide you to say what they want to say. So that's what we are discovering with Tabla"</span>
+        <p>~Ustad Zakir Hussain</p>
+        <a href="#products" class="btn">Explore Our Tablas</a>
+    </div>
+</section>
+<!-- Home section ends -->
+
+<!-- About section (Why to Choose us) starts - Integrated for a cleaner flow -->
+<section class="about" id="why-choose-us">
+    <h1 class="section-heading"> <span> Why Choose Us </span></h1>
+    <div class="row">
+        <div class="video-container">
+            <a href="https://youtu.be/vmxz11wY57Y?si=eBzp6ZSBYonh3Z23" target="_blank">
+                <video src="images/shop.mp4" loop autoplay muted controls></video>
+            </a>
+        </div>
+        <div class="content">
+            <h3>Craftsmanship & Tradition</h3>
+            <p>
+            We stand in this business from past few decades, possessing extensive knowledge and experience. We provide you with the best quality tablas, meticulously crafted and tuned by our seasoned professionals. Our dedication ensures each instrument resonates with the rich heritage of Indian classical music.
+            </p>
+            <h3>Global Reach & Customer Service</h3>
+            <p>
+            We offer reliable shipments all over India as well as around the globe. Expect superior sound quality and reliability, backed by our stellar reputation in the industry. Experience exceptional customer service every step of the way, making us the ideal choice for discerning musicians seeking top-notch tabla instruments.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- About section (Why to Choose us) ends -->
+
+<!-- Products section starts -->
+<section class="products" id="products">
+    <h1 class="section-heading"> Our <span>Products</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/set.png" alt="Tabla Set">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye" title="View Details"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Tabla Set</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/ring.jpeg" alt="Ring Set">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye" title="View Details"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Ring Set</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/home (3).jpg" alt="Tabla Bag">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye" title="View Details"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Tabla Bag</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/hammer.JPG" alt="Tabla Hammer">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye" title="View Details"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Tabla Hammer</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/tabla (5).jpeg" alt="Tabla Dagga">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye" title="View Details"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Tabla Dagga</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Products section ends -->
+
+<!-- Footer section starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#products">Products</a>
+            <a href="review.html">Reviews</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="https://www.google.com/maps/place/Bharrat's+Touuch+Tabla+Studio/@18.4941551,73.8325798,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf4172c2e149:0x3bb0302905864f63!8m2!3d18.4941551!4d73.8351547!16s%2Fg%2F11sx4jhpnn?entry=ttu" target="_blank">PUNE, India</a>
+            <a href="#" target="_blank">USA (Coming Soon)</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+91 7030710006</a>
+            <a href="mailto:bharatkakade0060@gmail.com?subject=Inquiry%20from%20Website">bharatkakade0060@gmail.com</a>
+            <a href="https://www.google.com/maps/place/Bharrat's+Touuch+Tabla+Studio/@18.4941551,73.8325798,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf4172c2e149:0x3bb0302905864f63!8m2!3d18.4941551!4d73.8351547!16s%2Fg%2F11sx4jhpnn?entry=ttu" target="_blank">
+                Bharrat's Touuch Tabla Studio <br>Laxmi Narayan Angan, Sinhgad Rd, behind Navshya Maruti Temple, opp. P.L.Deshpande Garden, Sarita Vihar, Dattawadi, Pune, Maharashtra 411051
+            </a>
+        </div>
+    </div>
+    <div class="credit">
+        Designed by <span style="color:var(--color-accent-yellow);">ANSHUMAN KALBHOR | MADE WITH LOVE &#128151; IN INDIA</span>
+    </div>
+</section>
+<!-- Footer section ends -->
+
+</body>
+</html>
